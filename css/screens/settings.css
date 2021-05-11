@@ -1,0 +1,32 @@
+.settings__setting-i {
+  padding: 0px 8px;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-weight: 600;
+}
+
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i,
+.settings__setting:nth-child(3) span:first-child {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
